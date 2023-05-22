@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171169286449074637}
   - component: {fileID: 2018735418971869418}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: P_ObjectStand_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 7882032599211086345}
   - component: {fileID: 1191913160594246030}
   - component: {fileID: 2709325729394015493}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}

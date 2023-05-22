@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7102827890581388259}
   - component: {fileID: 6974802506097231618}
   - component: {fileID: 3066657648150174323}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171169286449074637}
   - component: {fileID: 2018735418971869418}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: P_ArtPiece_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,7 +138,7 @@ Transform:
   m_Children:
   - {fileID: 611857319532670218}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2018735418971869418
 Rigidbody:
