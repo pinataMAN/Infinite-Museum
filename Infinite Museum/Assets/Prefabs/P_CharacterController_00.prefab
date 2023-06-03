@@ -35,7 +35,7 @@ Transform:
   - {fileID: 5122238898847977880}
   - {fileID: 4673003085052279586}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3175881198804876434
 MonoBehaviour:
@@ -54,6 +54,8 @@ MonoBehaviour:
       Speed","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Running
       Speed","value":{"$content":7.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Crouching
+      Speed","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Jump
       Force","value":{"$content":100.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -130,8 +132,6 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5263829409789619699}
-  - {fileID: 7630928993966780129}
-  - {fileID: 1145056775572696832}
   m_Father: {fileID: 860490770419694465}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -161,11 +161,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5634340839706386802}
   m_LocalRotation: {x: -0.62064826, y: 0.016855933, z: -0.043506946, w: 0.7826997}
-  m_LocalPosition: {x: -0.288, y: 0.043, z: 0.25}
-  m_LocalScale: {x: 0.10984855, y: 0.7866853, z: 0.10984855}
+  m_LocalPosition: {x: -0.286, y: -0.20299995, z: 0.09800005}
+  m_LocalScale: {x: 0.10984857, y: 0.7866853, z: 0.10984855}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 907752509204988347}
+  m_Father: {fileID: 3779345848291046467}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: -75.953, y: 19.342, z: -21.518}
 --- !u!33 &1184973527811853096
@@ -244,11 +244,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6241124656326050558}
   m_LocalRotation: {x: -0.6234095, y: -0.010075953, z: 0.040429693, w: 0.78078455}
-  m_LocalPosition: {x: 0.288, y: 0.043, z: 0.25}
-  m_LocalScale: {x: 0.10984855, y: 0.7866853, z: 0.10984855}
+  m_LocalPosition: {x: 0.28999996, y: -0.20299995, z: 0.09800005}
+  m_LocalScale: {x: 0.10984857, y: 0.7866854, z: 0.10984855}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 907752509204988347}
+  m_Father: {fileID: 3779345848291046467}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: -76.577, y: -16.554, z: 19.031}
 --- !u!33 &2515614600018431095
@@ -356,6 +356,39 @@ CapsuleCollider:
   m_Height: 1.85
   m_Direction: 1
   m_Center: {x: 0, y: 0.925, z: 0}
+--- !u!1 &7736636964724492416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3779345848291046467}
+  m_Layer: 7
+  m_Name: Arms
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3779345848291046467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7736636964724492416}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 7630928993966780129}
+  - {fileID: 1145056775572696832}
+  m_Father: {fileID: 5263829409789619699}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7873947434974412364
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,7 +422,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.28100002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 3779345848291046467}
   m_Father: {fileID: 907752509204988347}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
