@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3287863781242349759}
   - component: {fileID: 4980523913948716895}
   - component: {fileID: 3854535310391303729}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Fist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 3331247626985282924}
   - component: {fileID: 602976828076176505}
   - component: {fileID: 343999462374831417}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Reticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 1558206276774434997}
   - component: {fileID: 3150083276637919399}
   - component: {fileID: 2857414115452367382}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: P_CharacterController_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ Transform:
   - {fileID: 5122238898847977880}
   - {fileID: 4673003085052279586}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3175881198804876434
 MonoBehaviour:
@@ -303,7 +303,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 907752509204988347}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 7630928993966780129}
   - component: {fileID: 1184973527811853096}
   - component: {fileID: 7838243652740221709}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Arm Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -421,7 +421,7 @@ GameObject:
   - component: {fileID: 4952102658526707647}
   - component: {fileID: 1099853067305730124}
   - component: {fileID: 1904527582791767243}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Reticle Interaction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 1145056775572696832}
   - component: {fileID: 2515614600018431095}
   - component: {fileID: 3373653270445778739}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Arm Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4673003085052279586}
   - component: {fileID: 3951964318764420525}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -633,7 +633,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1090350285632998718}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Anchor Object
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -664,7 +664,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3779345848291046467}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Arms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -703,7 +703,7 @@ GameObject:
   - component: {fileID: 4421297840921393061}
   - component: {fileID: 3333255465799941233}
   - component: {fileID: 527578948831396891}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: CC UI Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -846,7 +846,7 @@ GameObject:
   - component: {fileID: 1663751822305837888}
   - component: {fileID: 5895553359484752915}
   - component: {fileID: 7563086710139770447}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Camera Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1095,7 +1095,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 860490770419694465}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Head Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1129,7 +1129,7 @@ GameObject:
   - component: {fileID: 5122238898847977880}
   - component: {fileID: 1674961704112359938}
   - component: {fileID: 4878808658270765599}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
