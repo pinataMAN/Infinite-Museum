@@ -95,9 +95,9 @@
                 {
                     "name": "2D Vector AZERTY",
                     "id": "6bf7b108-d9ec-4442-afc6-0e7e56ba4495",
-                    "path": "2DVector",
+                    "path": "2DVector(mode=1)",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "Normalize(min=-1,max=1)",
                     "groups": "",
                     "action": "Move",
                     "isComposite": true,
@@ -150,9 +150,9 @@
                 {
                     "name": "2D Vector QWERTY",
                     "id": "812e6dac-7653-4fe5-a290-1d4d2f581c4d",
-                    "path": "2DVector",
+                    "path": "2DVector(mode=1)",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "Normalize(min=-1,max=1)",
                     "groups": "",
                     "action": "Move",
                     "isComposite": true,
