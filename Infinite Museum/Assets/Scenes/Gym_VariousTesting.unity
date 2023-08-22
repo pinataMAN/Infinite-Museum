@@ -135,6 +135,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 301493079}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &272178472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3807686331487033082, guid: 70d854ffd5f60dd419dc1b62cca92649,
+    type: 3}
+  m_PrefabInstance: {fileID: 1843600603}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &301493079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1283,6 +1289,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1082366153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3807686331487033082, guid: 70d854ffd5f60dd419dc1b62cca92649,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368853422}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1102384163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1605,6 +1617,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ObjectStand_01
       objectReference: {fileID: 0}
+    - target: {fileID: 3872889245194667031, guid: 70d854ffd5f60dd419dc1b62cca92649,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Object
+        To Spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Spawn
+        Point","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872889245194667031, guid: 70d854ffd5f60dd419dc1b62cca92649,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872889245194667031, guid: 70d854ffd5f60dd419dc1b62cca92649,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 1919873617583649881, guid: 14f66f0f884d94d4196538738033c75d,
+        type: 3}
+    - target: {fileID: 3872889245194667031, guid: 70d854ffd5f60dd419dc1b62cca92649,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 1712552715}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1678,6 +1715,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ObjectStand_00
       objectReference: {fileID: 0}
+    - target: {fileID: 3872889245194667031, guid: 70d854ffd5f60dd419dc1b62cca92649,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Object
+        To Spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Spawn
+        Point","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872889245194667031, guid: 70d854ffd5f60dd419dc1b62cca92649,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872889245194667031, guid: 70d854ffd5f60dd419dc1b62cca92649,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 1919873617583649881, guid: 21ec82dcd9094cb42bae56bfbfc5a4b8,
+        type: 3}
+    - target: {fileID: 3872889245194667031, guid: 70d854ffd5f60dd419dc1b62cca92649,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 1082366153}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1923,6 +1985,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1368853422}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1712552715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3807686331487033082, guid: 70d854ffd5f60dd419dc1b62cca92649,
+    type: 3}
+  m_PrefabInstance: {fileID: 1365147014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1737783776
 GameObject:
   m_ObjectHideFlags: 0
@@ -2097,6 +2165,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ObjectStand_02
       objectReference: {fileID: 0}
+    - target: {fileID: 3872889245194667031, guid: 70d854ffd5f60dd419dc1b62cca92649,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Object
+        To Spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Spawn
+        Point","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872889245194667031, guid: 70d854ffd5f60dd419dc1b62cca92649,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872889245194667031, guid: 70d854ffd5f60dd419dc1b62cca92649,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 1919873617583649881, guid: fa211cda7ff63b84fb17e0ee98fe36ba,
+        type: 3}
+    - target: {fileID: 3872889245194667031, guid: 70d854ffd5f60dd419dc1b62cca92649,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 272178472}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
