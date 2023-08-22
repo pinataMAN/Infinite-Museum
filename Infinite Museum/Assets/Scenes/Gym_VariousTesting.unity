@@ -2355,11 +2355,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CharacterController_00
       objectReference: {fileID: 0}
-    - target: {fileID: 4337362351290967105, guid: 2ccc4b5a1a0025c4fa39fcb33fdb1f05,
-        type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
